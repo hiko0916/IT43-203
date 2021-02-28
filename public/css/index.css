@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+body {
+    width: 100vw;
+    max-width: 100%;
+    background-color: #ffdcb8;
+    font-family: "ヒラギノ丸ゴ ProN", "Hiragino Maru Gothic ProN", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+h1 {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+h2 {
+    width: fit-content;
+    margin: 10% auto;
+    font-size: 2.5rem;
+    transition: .7s ease-in-out ;
+}
+p{
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 40px;
+}
+
+.start_button {
+    margin: 40px auto;
+    padding: 25px 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: .7s ease-in-out ;
+}
+.start_button a {
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+@media screen and (max-width: 479px) {
+
+    h1 {
+        width: 100%;
+        margin: 20px auto;
+    }
+    h1 img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 1.25rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    .start_button {
+        font-size: 0.75rem;
+        padding: 10px 20px;
+    }
+}
